@@ -1,5 +1,15 @@
 package JavaProblems;
 import java.util.HashMap;
+
+//Given a pattern and a string s, find if s follows the same pattern.
+
+//Here follow means a full match, such that there is a bijection between a
+// letter in pattern and a non-empty word in s. Specifically:
+
+//1) Each letter in pattern maps to exactly one unique word in s.
+//2) Each unique word in s maps to exactly one letter in pattern.
+//3) No two letters map to the same word, and no two words map to the same letter.
+
 public class Pattern {
 
     public static void main(String[] args) {
